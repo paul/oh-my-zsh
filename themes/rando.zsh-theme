@@ -13,3 +13,7 @@ PROMPT="${ob}${current_dir}${cb}${ob}${rvm_ruby}${cb}${git_branch}
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[blue]%}[%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg[blue]%}]%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}✗%{$reset_color%}"
+
+ZSH_THEME_TERM_TAB_TITLE_IDLE="%~"
+ZSH_THEME_TERM_TITLE_IDLE="%~"
+
