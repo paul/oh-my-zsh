@@ -4,7 +4,7 @@ local ob='%{$fg[blue]%}[%{$reset_color%}'
 local cb='%{$fg[blue]%}]%{$reset_color%}'
 
 local current_dir='%{$fg[green]%}%~'
-local rvm_ruby='%{$fg[yellow]%}$(~/.rvm/bin/rvm-prompt i v g)%{$reset_color%}'
+local rvm_ruby='%{$fg[yellow]%}$(~/bin/rvm-prompt i v g)%{$reset_color%}'
 local git_branch='$(git_prompt_info)'
 
 PROMPT="${ob}${current_dir}${cb}${ob}${rvm_ruby}${cb}${git_branch}
